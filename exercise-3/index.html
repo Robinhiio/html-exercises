@@ -72,13 +72,13 @@
 
 <form>
     First name:<br>
-    <input type="text" name="firstname">
+    <input type="text" required name="firstname">
     <br>
     Last name:<br>
-    <input type="text" name="lastname">
+    <input type="text" required name="lastname">
     <br>
     Address:<br>
-    <input type="text" name="address">
+    <input type="text" maxlength="50" name="address">
     <br>
     Zip code:<br>
     <input type="text" name="zipcode">
@@ -87,11 +87,15 @@
     <input type="text" name="city">
     <br>
     Phone number:<br>
-    <input type="text" name="phonenumer">
+    <input type="text" required name="phonenumer">
     <br>
     Email address:<br>
     <input type="text" name="email">
     <br>
+    Delivery options:<br>
+    Home <input type="radio" name="answer"> Express <input type="radio"name="answer"> Mail <input type="radio" name="answer">
 </form>
+
+&lt;div/div&gt;
 </body>
 </html>
